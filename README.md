@@ -21,14 +21,14 @@ K-Means Clustering was applied using hospital geographic coordinates (latitude a
 The HHI index was calculated based on the total number of beds in each cluster to measure market competition.
 A topographical map visualization was created using Folium to display hospital clusters and their respective HHI values.
 
-- Results
+### Results
 
 The VotingClassifier model successfully classified hospitals as understaffed with 90% accuracy.
 Deep Learning classification achieved the R-squared metric 92%.
 K-Means clustering identified 16 hospital clusters, each with a calculated HHI index to assess market competition.
 Geospatial visualization provided insights into hospital distribution and competition levels across regions.
 
-- Recommendations
+### Recommendations
 Integrate Additional Datasets: Combining AHA data with CMS (Centers for Medicare and Medicaid Services) impact files and Electronic Health Records (EHRs) could improve predictive accuracy for hospital workforce and financial insights.
 Refine Staffing Models: Future work should focus on department-level staffing predictions to optimize resource allocation, particularly in rural hospitals facing critical understaffing issues.
 Policy and Decision-Making Support: Policymakers and healthcare administrators can leverage these insights to improve hospital workforce planning and resource distribution, ensuring better healthcare service availability.
