@@ -9,14 +9,11 @@ This project utilizes American Hospital Association (AHA) survey data to analyze
 - Data Preprocessing:
 AHA survey data from 1996 to 2020 was processed, selecting relevant features such as number of beds, inpatient days, expenses, and payroll data.
 Missing values were handled by replacing NaNs with zero where necessary to maintain data integrity.
-- Deep Learning and Machine Learning Models for Staffing Classification:
 
-The dataset was divided into training and test sets (2005–2018 data) to predict whether a hospital is understaffed.
-Various classification models were tested, Deep Learning with TensorFLow framework and Machine Learning models including GaussianNB, BernoulliNB, KNeighborsClassifier, SVC, MultinomialNB, and VotingClassifier.
-The VotingClassifier with soft voting achieved the highest accuracy (~90%) in classifying hospital staffing adequacy.
+- Deep Learning and Machine Learning Models for Staffing Classification:
+The dataset was divided into training and test sets (2005–2018 data) to predict whether a hospital is understaffed. Various classification models were tested, Deep Learning with TensorFLow framework and Machine Learning models including GaussianNB, BernoulliNB, KNeighborsClassifier, SVC, MultinomialNB, and VotingClassifier. The VotingClassifier with soft voting achieved the highest accuracy (~90%) in classifying hospital staffing adequacy.
 
 - Hospital Market Clustering & HHI Calculation:
-
 K-Means Clustering was applied using hospital geographic coordinates (latitude and longitude) to identify distinct hospital clusters.
 The HHI index was calculated based on the total number of beds in each cluster to measure market competition.
 A topographical map visualization was created using Folium to display hospital clusters and their respective HHI values.
